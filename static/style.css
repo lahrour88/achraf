@@ -47,8 +47,8 @@ body {
   top: 54px;
   right: -250px; /* خارج الشاشة */
   height: 100%;
-  width: 400px;
-  background: #6bbed1;
+  width: 370px;
+  background: #589b2eb9;
   color: white;
   padding: 20px;
   font-size: 20px;
@@ -75,4 +75,11 @@ body {
 /* عند عرض القائمة */
 .menu.active {
   transform: translateX(0); /* تظهر بالكامل */
+}
+p{
+  color: rgb(159, 32, 32);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 90%;
+  direction: rtl;
 }
